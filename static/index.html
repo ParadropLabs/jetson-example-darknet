@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Object Detection on Paradrop</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/epoch.min.css">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/d3.v3.min.js"></script>
+    <script src="/js/epoch.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Object Detection on Paradrop</h1>
+      <p>This demo application uses <a href="https://pjreddie.com/darknet/yolo/">
+        YOLOv3 from the darknet project</a> to perform real-time object
+      detection</p>
+      <div class="text-center">
+        <img id="markedImage" class="img-fluid" src="/frames/labelled.jpg" />
+      </div>
+    </div>
+    <script src="/js/object_detection.js"></script>
+  </body>
+</html>

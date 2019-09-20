@@ -1,0 +1,12 @@
+description: Jetson example application using darknet
+name: jetson-example-darknet
+services:
+  main:
+    source: .
+    type: normal
+    requests:
+      privileged: true
+version: 1
+web:
+  port: 5000
+  service: main
